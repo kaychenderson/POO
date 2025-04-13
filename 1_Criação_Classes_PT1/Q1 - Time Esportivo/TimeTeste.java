@@ -1,4 +1,4 @@
-public class Teste {
+public class TimeTeste {
     public static void main(String[] args) {
         Time t1 = new Time("Flamengo");
         
