@@ -1,0 +1,25 @@
+[UFES- 2023- Técnico de Tecnologia da Informação] Considere o seguinte programa escrito em Java:
+
+class Conta {
+    double saldo;
+    void sacar(double qtd) { saldo-= qtd; }
+    void depositar(double qtd) { saldo += qtd; }
+}
+ 
+public class Programa {
+    public static void main(String[] args) {
+        Conta c1 = new Conta();
+        c1.depositar(1000);
+        Conta c2 = c1;
+        c1.sacar(500);
+
+        System.out.println(c1.saldo);
+    }
+}
+
+Ao compilar e executar esse programa, o valor impresso na tela é:
+ ( ) 1000.0
+ (X) 500.0  // Pois, saldo é do tipo double
+ ( ) 500
+ ( ) 1000
+ ( ) Indeterminado, pois o saldo não foi inicializado.
