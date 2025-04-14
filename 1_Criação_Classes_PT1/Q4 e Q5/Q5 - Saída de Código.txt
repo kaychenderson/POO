@@ -1,4 +1,5 @@
-[UFES- 2023- Técnico de Tecnologia da Informação] Considere o seguinte programa escrito em Java:
+[UFES- 2023- Técnico de Tecnologia da Informação] 
+Considere o seguinte programa escrito em Java:
 
 class Conta {
     double saldo;
@@ -18,6 +19,7 @@ public class Programa {
 }
 
 Ao compilar e executar esse programa, o valor impresso na tela é:
+
  ( ) 1000.0
  (X) 500.0  // Pois, saldo é do tipo double
  ( ) 500

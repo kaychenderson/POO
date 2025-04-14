@@ -3,8 +3,8 @@ Maria está desenvolvendo um aplicativo desktop, com base em um ambiente de jane
 precisa que alguns processos sejam disponibilizados de forma global no aplicativo, sem a 
 necessidade de instanciar um objeto específico, e de forma que qualquer entidade possa acessar.
 
-Por estar trabalhando dentro da metodologia orientada a objetos, Maria precisará adicio
-nar aos métodos globais os modificadores:
+Por estar trabalhando dentro da metodologia orientada a objetos, Maria precisará adicionar 
+aos métodos globais os modificadores:
 
  ( ) privado e estático;
  ( ) protegido e sobrecarregado;

@@ -36,6 +36,7 @@ Baseado no código acima, assinale a alternativa correta.
  ( ) Um erro de compilação será indicado, pois não há um método construtor.
  ( ) Métodos de mesmo nome não podem ter parâmetros diferentes.
 
+Justificativa:
  Estes dois métodos têm:
 O mesmo nome (imprimirAtributos)
 O mesmo tipo de parâmetro (char a)

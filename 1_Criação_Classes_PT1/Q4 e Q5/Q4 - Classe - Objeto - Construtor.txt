@@ -1,7 +1,7 @@
 [FAB-EEAR-2023-SargentodaAeronáutica-Informática] Relacione as colunas quanto
 aos conceitos de POO. Em seguida, assinale a alternativa com a sequência correta.
  
-1– Classe 2– Objeto 3– Construtor
+1 – Classe 2 – Objeto 3 – Construtor
  
 (2) É uma estrutura dinâmica que encapsula estado e comportamento.
 (3) É executado automaticamente quando um objeto é instanciado utilizando o operador “new”.
