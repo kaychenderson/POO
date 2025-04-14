@@ -1,0 +1,37 @@
+Q13. [FGV- 2024- CVM- Analista CVM- Perfil 8- TI / Sistemas e Desenvolvimento] 
+Maria está desenvolvendo um aplicativo desktop, com base em um ambiente de janelas, e 
+precisa que alguns processos sejam disponibilizados de forma global no aplicativo, sem a 
+necessidade de instanciar um objeto específico, e de forma que qualquer entidade possa acessar.
+
+Por estar trabalhando dentro da metodologia orientada a objetos, Maria precisará adicio
+nar aos métodos globais os modificadores:
+
+ ( ) privado e estático;
+ ( ) protegido e sobrecarregado;
+ ( ) público e abstrato;
+ ( ) protegido e sobrescrito;
+ (X) público e estático.
+
+ - Público (para permitir acesso de qualquer entidade)
+ - Estático (para pertencer à classe em vez de instâncias individuais)
+
+
+Q14. [IV- UFG- 2024- Prefeitura de Rio Branco- AC- Analista de Tecnologia da Informação]
+Qual recurso da Análise e Projeto Orientado a Objetos separa os aspectos externos de um 
+objeto dos detalhes internos da implementação, possibilitando alterar a implementação de 
+um objeto sem afetar as aplicações que o utilizam?
+
+ ( ) Polimorfismo
+ (X) Encapsulamento
+ ( ) Herança
+ ( ) Especilização
+
+
+Q15. [FAB- CIAAR- 2023- Oficial de Apoio da Aeronáutica- Análise de Sistema] 
+As classes são fundamentais na orientação a objeto. Sobre esse assunto, marque a opção 
+que apresenta a composição de uma classe de forma correta.
+
+ ( ) Nome da classe, operações e armazenamento de dados.
+ ( ) Nome da classe, método construtor, armazenamento na sessão.
+ (X) Nome da classe, atributos, métodos e visibilidade.
+ ( ) Nome da classe, configuração e implementação. 

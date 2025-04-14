@@ -1,0 +1,46 @@
+Q16. [PR-4 UFRJ- 2023- UFRJ- Técnico de Tecnologia da Informação- Desenvolvimento]
+
+Considere o código em Java a seguir:
+
+public class ContaCorrenteSobrecarga {
+    int conta;
+    int agencia;
+    double saldo;
+
+    void efetuarSaque(double valor) {
+        this.saldo = this.saldo - valor;
+    }
+
+    void efetuarDeposito(double valor) {
+        this.saldo = this.saldo + valor;
+    }
+
+    void imprimirAtributos(int a) {
+        System.out.println("Imprime Atributos!");
+    }
+
+    void imprimirAtributos(char a) {
+        System.out.println("Imprime Atributos!");
+    }
+
+    int imprimirAtributos(char a) {
+        System.out.println("Imprime Atributos!");
+    }
+}
+
+Baseado no código acima, assinale a alternativa correta.
+
+ (X) Um erro de compilação será indicado, pois existem métodos com a mesma assinatura.
+ ( ) Os métodos efetuarSaque e efetuarDeposito não podem ter o mesmo parâmetro.
+ ( ) A palavra this está sendo usada de forma incorreta.
+ ( ) Um erro de compilação será indicado, pois não há um método construtor.
+ ( ) Métodos de mesmo nome não podem ter parâmetros diferentes.
+
+ Estes dois métodos têm:
+O mesmo nome (imprimirAtributos)
+O mesmo tipo de parâmetro (char a)
+Apenas o tipo de retorno é diferente (void e int)
+Em Java, a assinatura de um método considera apenas: Nome do método, Tipos e ordem dos parâmetros.
+O tipo de retorno não faz parte da assinatura
+
+Portanto, estes dois métodos têm a mesma assinatura, o que causará um erro de compilação por duplicação.
