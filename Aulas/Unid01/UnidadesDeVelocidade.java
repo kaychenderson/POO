@@ -6,7 +6,7 @@ public class UnidadesDeVelocidade {
 
         while (kph <= 50.0){
             mps = kph * 0.2778;
-            System.out.println(kph + "\t" + kps);
+            System.out.println(kph + "\t" + mps);
             kph += 0.5;
         }
     }
