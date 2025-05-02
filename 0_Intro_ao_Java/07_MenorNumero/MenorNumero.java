@@ -29,3 +29,23 @@ public class MenorNumero {
         leitor.close();
     }
 }
+
+// Forma alternativa:
+
+// import java.util.Scanner;
+
+// public class MenorDeTres {
+//     public static void main(String[] args) {
+//         Scanner scanner = new Scanner(System.in);
+        
+//         System.out.println("Digite três números:");
+//         double num1 = scanner.nextDouble();
+//         double num2 = scanner.nextDouble();
+//         double num3 = scanner.nextDouble();
+        
+//         double menor = Math.min(Math.min(num1, num2), num3);
+        
+//         System.out.println("O menor número é: " + menor);
+//         scanner.close();
+//     }
+// }
