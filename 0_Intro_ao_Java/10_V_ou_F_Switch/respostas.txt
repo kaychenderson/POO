@@ -1,0 +1,19 @@
+10. Determine se cada uma das seguintes alternativas é verdadeira ou falsa. Se falsa, expli
+que por quê.
+ • O caso default é requerido na instrução de seleção switch.
+Falso. O default é opcional em uma instrução switch. Ele é executado quando nenhum dos outros casos corresponde à expressão, mas não é obrigatório.
+
+ • A instrução break é requerida no último caso de uma instrução de seleção switch.
+Falso. O break no último caso é opcional, pois após ele não há mais casos para executar.
+
+ • A expressão ((x > y)&&(a < b)) é verdadeira se (x > y) for verdadeiro ou (a < b) for verdadeira.
+Falso. O operador && (AND lógico) requer que ambos os operandos sejam verdadeiros para que a expressão seja verdadeira.
+
+ • Uma expressão contendo o operador || é verdadeira se um ou ambos de seus operandos forem verdadeiros.
+Verdadeiro. O operador || (OR lógico) retorna verdadeiro se pelo menos um dos operandos for verdadeiro, incluindo quando ambos são verdadeiros.
+
+ • Para testar para uma série de valores em uma instrução switch, pode-se utilizar um hífen (- ) entre os valores inicial e final da série em um rótulo case.
+Falso. Em Java, não é possível usar hífens para representar intervalos em case. Cada valor deve ser listado separadamente ou usar-se case consecutivos sem break para agrupar comportamentos
+
+ • Listar casos consecutivamente sem instruções entre eles permite aos casos executar o mesmo conjunto de instruções.
+Verdadeiro. Quando múltiplos case são listados sem break entre eles, eles compartilham o mesmo bloco de código até encontrar um break ou o fim do switch.
