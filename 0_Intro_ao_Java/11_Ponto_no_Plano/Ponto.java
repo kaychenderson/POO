@@ -2,17 +2,17 @@ import java.util.Scanner;
 
 public class Ponto {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner leitor = new Scanner(System.in);
 
         System.out.print("Digite o x do primeiro ponto: ");
-        double x1 = scanner.nextDouble();
+        double x1 = leitor.nextDouble();
         System.out.print("Digite o y do primeiro ponto: ");
-        double y1 = scanner.nextDouble();
+        double y1 = leitor.nextDouble();
 
         System.out.print("Digite o x do segundo ponto: ");
-        double x2 = scanner.nextDouble();
+        double x2 = leitor.nextDouble();
         System.out.print("Digite o y do segundo ponto: ");
-        double y2 = scanner.nextDouble();
+        double y2 = leitor.nextDouble();
 
         System.out.println("\nPosição do segundo ponto em relação ao primeiro:");
 
@@ -32,6 +32,6 @@ public class Ponto {
             System.out.println("Os pontos são coincidentes (mesma posição).");
         }
 
-        scanner.close();
+        leitor.close();
     }
 }
