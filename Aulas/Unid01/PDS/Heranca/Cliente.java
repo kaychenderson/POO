@@ -1,6 +1,16 @@
 package Heranca;
 
 public class Cliente {
-    public String pais;
-    public String dataCadastro;
+    protected String pais;
+    protected String dataCadastro;
+
+    public Cliente(String pais, String dataCadastro){
+        this.pais = pais;
+        this.dataCadastro = dataCadastro;
+    }
+
+    public void exibirDados(){
+        System.out.println("País: " + pais);
+        System.out.println("Data de Cadastro: " + dataCadastro);
+    }
 }

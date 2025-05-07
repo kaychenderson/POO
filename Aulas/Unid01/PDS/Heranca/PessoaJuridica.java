@@ -1,19 +1,25 @@
 package Heranca;
 
 public class PessoaJuridica extends Cliente {
-    public String razaoSocial;
-    public String nomeFantasia;
-    public String sigla;
-    public String cnpj;
+    private String razaoSocial;
+    private String nomeFantasia;
+    private String sigla;
+    private String cnpj;
 
-    public void imprimeDados(String razaoSocial, String nomeFantasia, String sigla, String cnpj){
+    public PessoaJuridica(String pais, String dataCadastro, String razaoSocial, String nomeFantasia, String sigla, String cnpj){
+        super(pais, dataCadastro);
         this.razaoSocial = razaoSocial;
         this.nomeFantasia = nomeFantasia;
         this.sigla = sigla;
         this.cnpj = cnpj;
     }
 
-    public static void main(String[] args) {
-        
+    @Override
+    public void exibirDados(){
+        super.exibirDados();
+        System.out.println("Razão Social: " + razaoSocial);
+        System.out.println("Nome Fantasia: " + nomeFantasia);
+        System.out.println("Sigla: " + sigla);
+        System.out.println("CNPJ: " + cnpj);
     }
 }
