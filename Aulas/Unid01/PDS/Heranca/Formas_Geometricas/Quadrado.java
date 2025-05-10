@@ -1,3 +1,5 @@
+package Heranca.Formas_Geometricas;
+
 public class Quadrado extends FormaBidimensional {
     private double lado;
 

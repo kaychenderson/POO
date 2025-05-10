@@ -1,3 +1,5 @@
+package Heranca.Formas_Geometricas;
+
 public class Cubo extends FormaTridimensional {
     private double lado;
 

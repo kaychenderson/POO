@@ -1,3 +1,5 @@
+package Heranca.Formas_Geometricas;
+
 public class Tetraedro extends FormaTridimensional {
     private double aresta;
 

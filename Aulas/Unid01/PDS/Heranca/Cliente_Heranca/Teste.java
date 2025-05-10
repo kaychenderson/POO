@@ -1,4 +1,4 @@
-package Heranca;
+package Heranca.Cliente_Heranca;
 
 public class Teste {
     public static void main (String[] args){

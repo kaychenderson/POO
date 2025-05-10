@@ -1,4 +1,4 @@
-package Heranca;
+package Heranca.Cliente_Heranca;
 
 public class Cliente {
     protected String pais;

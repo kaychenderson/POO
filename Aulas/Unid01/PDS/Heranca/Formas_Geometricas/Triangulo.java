@@ -1,3 +1,5 @@
+package Heranca.Formas_Geometricas;
+
 public class Triangulo extends FormaBidimensional {
     private double base, altura;
 

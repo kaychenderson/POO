@@ -1,4 +1,4 @@
-package Heranca;
+package Heranca.Cliente_Heranca;
 
 public class PessoaFisica extends Cliente {
     private String nome;
