@@ -7,7 +7,7 @@ public class NumerosCubos {
             int dezena = (num % 100) / 10;
             int unidade = num % 10;
             
-            int somaCubos = (int)(Math.pow(centena, 3) + 
+            int somaCubos = (int)(Math.pow(centena, 3)) + 
                             (int)(Math.pow(dezena, 3)) + 
                             (int)(Math.pow(unidade, 3));
             
