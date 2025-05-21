@@ -1,3 +1,4 @@
+package EventoAcademico;
 public class EventoAcademico {
     String nomeEvento;
     String localEvent;
