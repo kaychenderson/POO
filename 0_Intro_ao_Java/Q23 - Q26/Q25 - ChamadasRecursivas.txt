@@ -1,0 +1,32 @@
+Q25. [FADE-UFPE-2023 - UFPE - Analista de Tecnologia da Informação - Área: Sistemas]
+Considere o seguinte código em Java:
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println(proc(5));
+    }
+    
+    public static int proc(int k) {
+        if (k > 0) 
+            return proc(k - 2) + proc(k - 1);
+        return 1;
+    }
+}
+
+A execução desse código resulta na impressão do seguinte valor:
+(X) 13
+( ) 8
+( ) 10
+( ) 9
+( ) 12
+
+proc(5) = proc(3) + proc(4)  
+  proc(3) = proc(1) + proc(2)  
+    proc(1) = proc(-1) + proc(0) = 1 + 1 = 2  
+    proc(2) = proc(0) + proc(1) = 1 + 2 = 3  
+  → proc(3) = 2 + 3 = 5  
+  proc(4) = proc(2) + proc(3)  
+    proc(2) = 3 (como calculado acima)  
+    proc(3) = 5 (como calculado acima)  
+  → proc(4) = 3 + 5 = 8  
+→ proc(5) = 5 + 8 = 13  

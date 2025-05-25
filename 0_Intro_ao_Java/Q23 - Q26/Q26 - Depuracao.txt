@@ -1,0 +1,28 @@
+26. [FGV-2023 - AL-MA - Programador - Superior]
+Analise o código Java a seguir:
+
+public class Main {
+    public static void main(String[] args) {
+        for (int i = 0; i <= 10; i++) {
+            if (i == 4) {
+                break;
+            } else if (i % 2 == 0) {
+                continue;
+            }
+            System.out.println(i);
+        }
+    }
+}
+
+A quantidade de valores que são exibidos na execução desse código é igual a:
+( ) 0
+(X) 2
+( ) 3
+( ) 5
+( ) 9
+
+i = 0: Par (0 % 2 == 0) → continue → não imprime.
+i = 1: Ímpar → imprime 1.
+i = 2: Par → continue → não imprime.
+i = 3: Ímpar → imprime 3.
+i = 4: break → loop encerrado.

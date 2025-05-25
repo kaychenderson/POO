@@ -1,0 +1,19 @@
+Q24. [IDECAN- 2023- Técnico em Tecnologia da Informação] 
+Considere o seguinte trecho de código escrito na Linguagem Java, considerando a openJDK 17.0.3.
+
+public class Main {
+    public static void main(String[] args) {
+        int x, y;    
+        y = 1;                             // y = 1
+        x = 1 + ++y;                       // x = 1 + (y+1) = 1 + 2 = 3
+        System.out.println(x--);           // Imprime o valor antes, depois decrementa.
+    }
+}
+
+Ao executar este trecho de código, qual o resultado mostrado na tela?
+
+( ) 0
+( ) 1
+( ) 2
+(X) 3
+( ) error in line 5: invalid operation
