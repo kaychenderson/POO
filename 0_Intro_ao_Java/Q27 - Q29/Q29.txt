@@ -1,0 +1,21 @@
+Q29. [VUNESP-2023 - EsFCEx - Oficial do Quadro Complementar]
+
+A seguir é apresentado um trecho de código escrito na linguagem Java.
+
+class Main {
+    public static void main(String[] args) {
+        int x;
+        x = 10 * 2 % 3 + 5;                         // 10 * 2 = 20, 20 % 3 = 2, 2 + 5 = 7
+        System.out.println("Valor: " + x++);        // Imprime 7, a incrementação ocorre depois de printar o valor na tela.
+    }
+}
+
+É correto afirmar que o valor impresso será:
+( ) 25
+( ) 8
+( ) 4
+(X) 7
+( ) 26
+
+
+
