@@ -1,4 +1,4 @@
-package Iguais;
+package Igualdade;
 public class DemoIguais {
     public static void main(String[] args) {
         System.out.println(Iguais.iguais("UFERSA", "UFERSA"));
