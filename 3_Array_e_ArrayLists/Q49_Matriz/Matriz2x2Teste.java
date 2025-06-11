@@ -1,4 +1,4 @@
-package Q49_Matriz;
+package 3_Array_e_ArrayLists.Q49_Matriz;
 
 public class Matriz2x2Teste {
   public static void main(String[] args) {
