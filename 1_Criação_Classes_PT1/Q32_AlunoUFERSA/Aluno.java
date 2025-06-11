@@ -1,3 +1,5 @@
+package 1_Criação_Classes_PT1.Q32_AlunoUFERSA;
+
 public class Aluno{
     private String matricula;
     private String nome;

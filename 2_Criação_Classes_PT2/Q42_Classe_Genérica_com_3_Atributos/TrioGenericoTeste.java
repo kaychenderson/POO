@@ -1,3 +1,5 @@
+package 2_Criação_Classes_PT2.Q42_Classe_Genérica_com_3_Atributos;
+
 public class TrioGenericoTeste{
     public static void main(String[] args){
         System.out.println("--- Testando Trio Genérico com diferentes tipos ---");

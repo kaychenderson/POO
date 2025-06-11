@@ -1,3 +1,5 @@
+package 2_Criação_Classes_PT2.Q39_NumeroComplexo;
+
 public class NumeroComplexoTeste{
     public static void main(String[] args){
         System.out.println("--- Testando Números Complexos ---");

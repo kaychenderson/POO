@@ -1,3 +1,5 @@
+package 2_Criação_Classes_PT2.Q37_Contador;
+
 public class ContadorTeste{
     public static void main(String[] args){
         Contador c1 = new Contador();

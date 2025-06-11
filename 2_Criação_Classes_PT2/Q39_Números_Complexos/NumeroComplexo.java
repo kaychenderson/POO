@@ -1,3 +1,5 @@
+package 2_Criação_Classes_PT2.Q39_NumeroComplexo;
+
 public class NumeroComplexo{
     private int real;
     private int imaginario;

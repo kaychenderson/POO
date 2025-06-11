@@ -1,3 +1,5 @@
+package 2_Criação_Classes_PT2.Q42_Classe_Genérica_com_3_Atributos;
+
 public class TrioGenerico<T>{
     private T atributo1;
     private T atributo2;

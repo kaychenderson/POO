@@ -1,3 +1,5 @@
+package 1_Criação_Classes_PT1.Q30_TimeEsportivo;
+
 public class Time {
     private String nome;
     private int vitorias;

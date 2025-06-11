@@ -1,3 +1,5 @@
+package 1_Criação_Classes_PT1.Q31_Fatura;
+
 public class FaturaTeste{
     public static void main(String[] args){
         Fatura f1 = new Fatura("001", "Celular", 2, 2500.50);

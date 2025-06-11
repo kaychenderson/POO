@@ -1,3 +1,5 @@
+package 2_Criação_Classes_PT2.Q38_Lampada;
+
 public class Lampada{
     private boolean estadoDaLampada;
     private Contador contadorAcesa;

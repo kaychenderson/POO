@@ -1,3 +1,5 @@
+package 1_Criação_Classes_PT1.Q32_AlunoUFERSA;
+
 public class AlunoTeste{
     public static void main(String[] args){
         Aluno a1 = new Aluno("20230101", "Felipe Silva", 7.5, 8.5, 9.5);

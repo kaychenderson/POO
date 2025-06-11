@@ -1,3 +1,5 @@
+package 2_Criação_Classes_PT2.Q36_Elevador;
+
 public class Elevador{
     private int andar_atual;
     private int total_andares;

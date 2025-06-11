@@ -1,3 +1,5 @@
+package 1_Criação_Classes_PT1.Q31_Fatura;
+
 public class Fatura{
     private String id;
     private String descricao;

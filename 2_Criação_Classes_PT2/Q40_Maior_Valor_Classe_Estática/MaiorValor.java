@@ -1,3 +1,5 @@
+package 2_Criação_Classes_PT2.Q40_Maior_Valor_Classe_Estática;
+
 public class MaiorValor{
     
     // Métodos para int

@@ -1,3 +1,5 @@
+package 2_Criação_Classes_PT2.Q36_Elevador;
+
 public class ElevadorTeste{
     public static void main(String[] args){
         Elevador e1 = new Elevador(10, 5);

@@ -1,3 +1,5 @@
+package 1_Criação_Classes_PT1.Q30_TimeEsportivo;
+
 public class TimeTeste {
     public static void main(String[] args) {
         Time t1 = new Time("Flamengo");

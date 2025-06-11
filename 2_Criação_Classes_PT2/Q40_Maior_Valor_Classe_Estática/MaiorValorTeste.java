@@ -1,3 +1,5 @@
+package 2_Criação_Classes_PT2.Q40_Maior_Valor_Classe_Estática;
+
 public class MaiorValorTeste{
     public static void main(String[] args) {
         System.out.println("--- Testando métodos estáticos para encontrar o maior valor ---");
