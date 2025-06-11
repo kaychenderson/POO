@@ -1,3 +1,5 @@
+package 3_Array_e_ArrayLists.Q17_Agenda;
+
 public class EntradaEmAgenda {
     private int hora;
     private int dia;
