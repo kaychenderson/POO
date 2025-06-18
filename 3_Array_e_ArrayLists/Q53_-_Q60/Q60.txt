@@ -1,0 +1,27 @@
+Q60. [IFRN- 2009- Professor- Sistemas de Informação] Analise o seguinte código Java, abaixo:
+
+public class test {
+  public static void main(String[] SSn10) {
+    int a[] = {1,2,3,4,5};
+    int b[] = {1,2,3,4,5,6,7,8,9,10};
+    final int tam=a.length;
+    for(int f=0;f<tam;f++)
+      a[f] = a[f]*f;
+    tam=b.length;                // LINHA PROBLEMÁTICA
+    for(int f=0; f<tam;f++)
+      b[f]+=a[f/2]%(f+1);
+  }
+}
+
+ Assinale a alternativa que contém o número da linha do código acima que promove um
+ erro de compilação.
+ ( ) 2
+ ( ) 7
+ (X) 8
+ ( ) 10
+
+Análise do erro:
+Na linha 5, a variável tam é declarada como final, o que significa que seu valor não pode ser alterado após a inicialização.
+Na linha 8, há uma tentativa de modificar o valor de tam (tam = b.length;), o que viola a propriedade final da variável.
+
+Isso causará um erro de compilação do tipo: "cannot assign a value to final variable tam".
