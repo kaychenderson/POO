@@ -1,0 +1,71 @@
+Q55. [CONSULPLAN - 2017 - TRF - 2ª REGIÃO - Analista Judiciário - Informática Desenvolvimento] “Um array em Java é uma coleção ordenada 
+que ocupa uma porção fixa e sequencial da memória. Além disso, é definido como uma estrutura homogênea, pois armazena um determinado 
+tipo de dado. Esse, por sua vez, faz referências para objetos, valores de um tipo primitivo ou para outros arrays.” Considere que 
+o usuário digitou os valores: 14, 40, 16, 22 e 60 para o array. Assinale a alternativa que contém o valor que será exibido quando 
+executado o código Java a seguir.
+
+for (i = 0; i < 5; i++) {
+    for (j = 0; j < 4; j++) {
+        if (vetor[j] < vetor[j + 1]) {
+            aux = vetor[j];
+            vetor[j] = vetor[j + 1];
+            vetor[j + 1] = aux;
+        }
+    }
+}
+
+ ( ) 14, 16, 22, 40 e 60.
+ ( ) 28, 32, 44, 80 e 120.
+ (X) 60, 40, 22, 16 e 14.
+ ( ) 120, 80, 44, 32 e 28.
+
+Passo a passo da execução:
+
+Primeira iteração (i = 0):
+O loop interno percorre o array e troca elementos se vetor[j] < vetor[j+1].
+O array evolui da seguinte forma:
+
+[14, 40, 16, 22, 60] → Troca 14 e 40 → [40, 14, 16, 22, 60]
+[40, 14, 16, 22, 60] → Troca 14 e 16 → [40, 16, 14, 22, 60]
+[40, 16, 14, 22, 60] → Troca 14 e 22 → [40, 16, 22, 14, 60]
+[40, 16, 22, 14, 60] → Troca 14 e 60 → [40, 16, 22, 60, 14]
+
+Resultado parcial: [40, 16, 22, 60, 14]
+
+Segunda iteração (i = 1):
+O loop interno percorre novamente:
+
+[40, 16, 22, 60, 14] → Troca 16 e 22 → [40, 22, 16, 60, 14]
+[40, 22, 16, 60, 14] → Troca 16 e 60 → [40, 22, 60, 16, 14]
+[40, 22, 60, 16, 14] → Troca 16 e 14 → [40, 22, 60, 16, 14] (sem troca, pois 16 > 14)
+
+Resultado parcial: [40, 22, 60, 16, 14]
+Terceira iteração (i = 2):
+O loop interno percorre novamente:
+
+[40, 22, 60, 16, 14] → Troca 22 e 60 → [40, 60, 22, 16, 14]
+[40, 60, 22, 16, 14] → Troca 22 e 16 → [40, 60, 16, 22, 14]
+[40, 60, 16, 22, 14] → Troca 22 e 14 → [40, 60, 16, 14, 22]
+
+Resultado parcial: [40, 60, 16, 14, 22]
+
+Quarta iteração (i = 3):
+O loop interno percorre novamente:
+
+[40, 60, 16, 14, 22] → Troca 40 e 60 → [60, 40, 16, 14, 22]
+[60, 40, 16, 14, 22] → Troca 16 e 14 → [60, 40, 14, 16, 22]
+[60, 40, 14, 16, 22] → Troca 16 e 22 → [60, 40, 14, 22, 16]
+
+Resultado parcial: [60, 40, 14, 22, 16]
+
+Quinta iteração (i = 4):
+O loop interno percorre novamente:
+
+[60, 40, 14, 22, 16] → Troca 40 e 14 → [60, 14, 40, 22, 16]
+[60, 14, 40, 22, 16] → Troca 40 e 22 → [60, 14, 22, 40, 16]
+[60, 14, 22, 40, 16] → Troca 40 e 16 → [60, 14, 22, 16, 40]
+
+Resultado parcial [60, 14, 22, 16, 40]
+
+Resultado após as 5 iterações:
+O array final será [60, 40, 22, 16, 14] (o código não ordena perfeitamente, mas o maior valor sobe para a primeira posição).
