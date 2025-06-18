@@ -1,0 +1,43 @@
+Q59. [UFU-MG- 2023- Analista de Tecnologia da Informação Área 1- Desenvolvimento de Sites, Aplicações e Sistemas] Analise o programa 
+em java, descrito a seguir, e marque a alternativa correta que apresenta o resultado correto da execução desse programa.
+
+public class App {
+    public static void main(String[] args) {
+        int[] j = new int[6];
+        for (int i = 0; i < 6; i++)
+            j[i] = i;
+        App func = new App();
+        System.out.println(func.f(j, 6));
+    }
+
+    public int f(int j[], int n) {
+        if (n <= 0) return 1;
+        return j[n - 1] * f(j, n - 2) + 1;
+    }
+}
+
+ (X) 36
+ ( ) 42
+ ( ) 33
+ ( ) 26
+
+ Passo a passo:
+Inicialização do array j:
+O array j é criado com 6 elementos: j = [0, 1, 2, 3, 4, 5] (pois j[i] = i para i de 0 a 5).
+
+Chamada do método f(j, 6):
+O método f é recursivo e calcula:
+f(j, n) = j[n-1] * f(j, n-2) + 1
+com caso base f(j, n) = 1 quando n <= 0.
+
+Execução recursiva de f(j, 6):
+f(j, 6) = j[5] * f(j, 4) + 1 = 5 * f(j, 4) + 1
+f(j, 4) = j[3] * f(j, 2) + 1 = 3 * f(j, 2) + 1
+f(j, 2) = j[1] * f(j, 0) + 1 = 1 * f(j, 0) + 1
+f(j, 0) = 1 (caso base)
+
+Agora, substituindo de volta:
+
+f(j, 2) = 1 * 1 + 1 = 2
+f(j, 4) = 3 * 2 + 1 = 7
+f(j, 6) = 5 * 7 + 1 = 36
