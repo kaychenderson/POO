@@ -1,0 +1,49 @@
+Q57. [FADE- UFPE- 2023- UFPE- Analista de Tecnologia da Informação- Área: Sistemas] Considere o seguinte código em Java:
+
+public class Main {
+    public static void main(String[] args) {
+        Integer[] A = new Integer[3];
+        A[0] = 2;
+        A[1] = 3;
+        A[2] = 9;
+        proc(A, A[2]);
+        System.out.println(A[0] + A[1] + A[2]);
+    }
+
+    private static void proc(Integer[] B, Integer c) {
+        B[0] = c;
+        B[2] = B[0] + B[1];
+    }
+}
+
+ A execução desse código resulta na impressão do seguinte valor:
+ ( ) 14
+ ( ) 17
+ (X) 24
+ ( ) 11
+ ( ) 21
+
+Passo a passo da execução:
+
+Inicialização do array A:
+
+A[0] = 2   A[1] = 3    A[2] = 9      - A: [2, 3, 9]
+
+Chamada do método proc(A, A[2]):
+
+O método proc recebe:
+O array B (que é uma referência ao mesmo array A).
+O valor c = A[2] = 9.
+
+Execução do método proc:
+B[0] = c → B[0] = 9 (modifica A[0] para 9).
+Estado de A após esta linha: [9, 3, 9]
+
+B[2] = B[0] + B[1] → B[2] = 9 + 3 = 12.
+Estado de A após esta linha: [9, 3, 12]
+
+Retorno ao método main:
+O array A agora está modificado: [9, 3, 12].
+O System.out.println imprime a soma A[0] + A[1] + A[2]:
+
+9 + 3 + 12 = 24.
