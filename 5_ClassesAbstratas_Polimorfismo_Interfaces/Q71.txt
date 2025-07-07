@@ -1,0 +1,6 @@
+// Q71) - Por que não podemos ter construtores com a palavra-chave abstract?
+
+- O modificador abstract é usado para métodos que não têm corpo e devem ser implementados por subclasses.
+- Mas construtores obrigatoriamente precisam ter corpo, pois são usados para criar objetos e inicializar atributos.
+- Além disso, construtores não são herdados por subclasses, logo não faz sentido pedir que uma subclasse "implemente" 
+um construtor abstrato.
