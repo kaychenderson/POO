@@ -1,4 +1,4 @@
-public class TesteFuncionarios {
+public class Teste {
     public static void main(String[] args) {
         // Testando Funcionario
         Funcionario func1 = new Funcionario("João Silva", 3000);
