@@ -3,9 +3,6 @@ package 3_Array_e_ArrayLists.Q50_Cliente;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import java.util.ArrayList;
-import java.util.Scanner;
-
 public class CadastroClientes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
